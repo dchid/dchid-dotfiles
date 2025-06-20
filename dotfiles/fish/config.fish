@@ -8,8 +8,9 @@ abbr --add tree tre
 abbr --add vim nvim
 abbr --add calc qalc
 abbr --add tf terraform
-abbr --add mpv flatpak run io.mpv.Mpv
-abbr --add play flatpak run io.mpv.Mpv
+abbr --add play mpv
 abbr --add show feh
 abbr --add lock hyprlock
 abbr --add handbreak flatpak run --command=HandBrakeCLI fr.handbrake.ghb 
+alias ls="exa --icons"
+alias gnu_ls="/bin/ls"
