@@ -1,0 +1,12 @@
+mode=drun
+prompt=type to search
+allow_images=true
+allow_markup=true
+insensitive=true
+term=alacritty
+lines=18
+width=20%
+orientation=vertical
+gtk_dark=true
+layer=overlay
+key_expand=e

@@ -1,0 +1,21 @@
+#window {
+	border-radius: 10px;
+	color: ivory;
+	background-color: rgba(30, 30, 30, 0.8);
+	font-size: 28px;
+}
+
+/* the search box */
+#input {
+	background-color: rgba(30, 30, 30, 0.8);
+	border: 0px;
+}
+
+#entry:selected {
+	background: cornflowerblue;
+	border-radius: 10px;
+}
+
+image {
+	margin-left: 5px;
+}

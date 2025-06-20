@@ -1,0 +1,180 @@
+* {
+    border: none;
+    border-radius: 0;
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(30, 30, 30, 0.5);
+    border-radius: 10px;
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#custom-launcher {
+    padding: 0 10px;
+    color: #ffffff;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#workspaces button {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#custom-launcher button:hover {
+    background: rgba(70, 70, 100, 0.7);
+    box-shadow: inherit;
+}
+
+#workspaces button:hover {
+    background: rgba(70, 70, 100, 0.7);
+    box-shadow: inherit;
+}
+
+#workspaces button.active {
+    background-color: #64727D;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#clock {
+    background-color: #64727D;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#battery {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+}
+
+#battery.charging {
+    color: #ffffff;
+    background-color: #26A65B;
+    border-radius: 10px;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#cpu {
+    background-color: #2ecc71;
+    color: #000000;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#memory {
+    background-color: #9b59b6;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#backlight {
+    background-color: #90b1b1;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#network {
+    background-color: #2980b9;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#network.disconnected {
+    background-color: #f53c3c;
+}
+
+#pulseaudio {
+    background-color: #f1c40f;
+    color: #000000;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#pulseaudio.muted {
+    background-color: #90b1b1;
+    color: #2a5c45;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#temperature {
+    background-color: #f0932b;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#temperature.critical {
+    background-color: #eb4d4b;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#tray {
+    background-color: #2980b9;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#idle_inhibitor {
+    background-color: #2d3436;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#idle_inhibitor.activated {
+    background-color: #ecf0f1;
+    color: #2d3436;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
