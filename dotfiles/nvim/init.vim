@@ -10,6 +10,8 @@ nmap <silent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
 nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
+" Tree Toggle
+nmap <F2> :NERDTreeToggle<CR>
 
 " display settings
 set encoding=utf-8 " encoding used for displaying file
@@ -46,3 +48,8 @@ highlight Normal guibg=none
 highlight NonText guibg=none
 highlight Normal ctermbg=none
 highlight NonText ctermbg=none
+
+" on start
+" Start NERDTree, unless a file or session is specified, eg. vim -S session_file.vim.
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists('s:std_in') && v:this_session == '' | NERDTree | endif
