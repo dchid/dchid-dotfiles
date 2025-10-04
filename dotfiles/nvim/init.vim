@@ -4,6 +4,7 @@ syntax on
 set nocompatible
 set number
 set smartindent
+set encoding=UTF-8
 
 " remap keys
 nmap <silent> <c-k> :wincmd k<CR>
@@ -32,6 +33,7 @@ Plug 'hashivim/vim-terraform' " Syntax highlighting for Terraform
 Plug 'raimondi/delimitmate' " Automatic closing of quotes, brackets, etc
 Plug 'kien/rainbow_parentheses.vim' " Color match parentheses
 Plug 'ap/vim-css-color' " Preview CSS colors
+Plug 'ryanoasis/vim-devicons' " Add icons
 call plug#end()
 
 set statusline+=%#warningmsg#
