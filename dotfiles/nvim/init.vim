@@ -34,6 +34,7 @@ Plug 'raimondi/delimitmate' " Automatic closing of quotes, brackets, etc
 Plug 'kien/rainbow_parentheses.vim' " Color match parentheses
 Plug 'ap/vim-css-color' " Preview CSS colors
 Plug 'ryanoasis/vim-devicons' " Add icons
+Plug 'chrisbra/csv.vim' " Edit CSV files
 call plug#end()
 
 set statusline+=%#warningmsg#
