@@ -4,7 +4,6 @@ end
 set -U fish_greeting ""
 abbr --add clip fish_clipboard_copy
 abbr --add py python3
-abbr --add tree tre
 abbr --add calc qalc
 abbr --add tf terraform
 abbr --add play mpv
