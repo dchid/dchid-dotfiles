@@ -22,8 +22,9 @@ yellow = "0xa2734c"
 background = "0x1e1e1e"
 foreground = "0xffffff"
 
-[cursor]
-style = "Beam"
+[cursor.style]
+shape = "Beam"
+blinking = "On"
 
 [font]
 normal = { family = "Hack Nerd Font Mono", style = "Regular" }
