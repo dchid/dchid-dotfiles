@@ -9,4 +9,3 @@ abbr --add tf terraform
 abbr --add play mpv
 abbr --add show feh
 abbr --add lock hyprlock
-abbr --add handbreak flatpak run --command=HandBrakeCLI fr.handbrake.ghb 
