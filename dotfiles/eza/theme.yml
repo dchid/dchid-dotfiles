@@ -1,0 +1,11 @@
+icons: true
+filenames:
+  Books: { icon: { glyph: "" } }
+  Code: { icon: { glyph: "" } }
+  Desktop: { icon: { glyph: "" } }
+  Documents: { icon: { glyph: "󰈙" } }
+  Downloads: { icon: { glyph: "" } }
+  Games: { icon: { glyph: "󰊖" } }
+  Music: { icon: { glyph: "󰝚" } }
+  Pictures: { icon: { glyph: "" } }
+  Videos: { icon: { glyph: "" } }
