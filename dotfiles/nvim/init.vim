@@ -15,6 +15,7 @@ nmap <silent> <c-l> :wincmd l<CR>
 nmap <F2> :NERDTreeToggle<CR>
 
 " display settings
+colorscheme elflord " Color Scheme
 set encoding=utf-8 " encoding used for displaying file
 set ruler " show the cursor position all the time
 set showmatch " highlight matching braces
@@ -47,10 +48,11 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " Set transparency
-highlight Normal guibg=none
-highlight NonText guibg=none
-highlight Normal ctermbg=none
-highlight NonText ctermbg=none
+highlight Normal ctermbg=NONE guibg=NONE
+highlight NonText ctermbg=NONE guibg=NONE
+highlight EndOfBuffer ctermbg=NONE guibg=NONE
+highlight SignColumn ctermbg=NONE guibg=NONE
+highlight LineNr ctermbg=NONE guibg=NONE
 
 " on start
 " Start NERDTree, unless a file or session is specified, eg. vim -S session_file.vim.
