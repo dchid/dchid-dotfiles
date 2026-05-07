@@ -16,6 +16,7 @@ nmap <F2> :NERDTreeToggle<CR>
 
 " display settings
 colorscheme elflord " Color Scheme
+set mouse=a " enablle mouse
 set encoding=utf-8 " encoding used for displaying file
 set ruler " show the cursor position all the time
 set showmatch " highlight matching braces
