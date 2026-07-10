@@ -6,3 +6,5 @@ abbr --add clip fish_clipboard_copy
 abbr --add py python3
 abbr --add calc qalc
 abbr --add tf terraform
+abbr --add lock xdg-screensaver lock
+
