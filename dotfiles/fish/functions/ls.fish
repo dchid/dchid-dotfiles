@@ -1,6 +1,6 @@
 function ls
     if type -q eza
-        eza --icons $argv
+        eza --icons=auto $argv
     else
         command ls $argv
     end
